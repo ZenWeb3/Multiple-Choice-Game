@@ -81,7 +81,7 @@ const getNewQuestion = () => {
   if (avaliableQuestions.length === 0 || questionCounter > $MaxQuestions) {
     localStorage.setItem("mostRecentScore", score);
 
-    return window.location.assign("/end.html");
+    return window.location.assign("./end.html");
   }
 
   //a math operation to display the question number after picking an answer
