@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="game" class="justify-center flex-column">
+        <div id="headDisplay">
+          <div class="headDisplay-item">
+            <p id="progressText" class="headDisplay-Prefix">Question</p>
+            <div id="progressBar">
+              <div id="progressBarFull"></div>
+            </div>
+          </div>
+          <div class="headDisplay-item">
+            <p class="headDisplay-Prefix">Score</p>
+            <h1 class="headDisplay-main-text" id="score">0</h1>
+          </div>
+        </div>
+        <h1 id="question">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, vero.
+        </h1>
+        <div class="choiceContainer">
+          <p class="choicePrefix">A</p>
+          <p class="choiceText" data-number="1">Choice</p>
+        </div>
+        <div class="choiceContainer">
+          <p class="choicePrefix">B</p>
+          <p class="choiceText" data-number="2">Choice</p>
+        </div>
+        <div class="choiceContainer">
+          <p class="choicePrefix">C</p>
+          <p class="choiceText" data-number="3">Choice</p>
+        </div>
+        <div class="choiceContainer">
+          <p class="choicePrefix">D</p>
+          <p class="choiceText" data-number="4">Choice</p>
+        </div>
+        <div class="choiceContainer">
+          <p class="choicePrefix">E</p>
+          <p class="choiceText" data-number="5">Choice</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./game.js"></script>
+  </body>
+</html>

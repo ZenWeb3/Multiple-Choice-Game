@@ -1,0 +1,66 @@
+body{
+    color: white;
+}
+.choiceContainer{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 3px;
+    background-color: rgb(11, 87, 117);
+    font-size: 3rem;
+    min-width: 80rem;
+    transition: all .2s;
+}
+
+.choiceContainer:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.2rem 0 rgba(6, 103, 247, 0.5);
+    transition: transform .2s;
+    transform: scale(1.02);
+}
+
+.choicePrefix{
+    padding: 2rem 2.5rem;
+    color: white;
+}
+
+.choiceText{
+    padding: 2rem;
+    width: 100%;
+}
+
+.correct{
+    background-color: rgb(17, 88, 17);
+}
+.incorrect{
+    background-color: red;
+}
+
+#headDisplay{
+    display: flex;
+    justify-content: space-between;
+}
+.headDisplay-Prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.headDisplay-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 3rem;
+    border: 0.2rem solid  rgb(12, 131, 12);
+    border-radius: 2rem;
+    margin-top: 2rem;
+    overflow: hidden;
+}
+
+#progressBarFull{
+    height: 100%;
+    background-color:rgb(12, 131, 12);
+    width: 0%;
+
+}
