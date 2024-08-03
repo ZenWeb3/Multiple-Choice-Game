@@ -38,7 +38,7 @@ const saveHighScore = e => {
     localStorage.setItem('highScores', JSON.stringify(highScores));
 
     // Redirect to the home page
-    window.location.assign('/index.html');
+    window.location.assign('./index.html');
 };
 
 // Add event listener to save score button
