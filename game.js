@@ -76,7 +76,7 @@ const startGame = () => {
 
 // using localstorage API to store the scores of players in the browser. localstorage is an API provided by browsers that allows you to store small amount of data even when browser is closed.
 
-//this function keeps track of the score
+//this function keeps track of the score and also displays the score page when all questions has been answered
 const getNewQuestion = () => {
   if (avaliableQuestions.length === 0 || questionCounter > $MaxQuestions) {
     localStorage.setItem("mostRecentScore", score);
