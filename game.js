@@ -16,12 +16,12 @@ let avaliableQuestions = [];
 //question objects for the quiz
 let questions = [
     {
-      question: "What is the capital city of France?",
-      choice1: "Berlin",
-      choice2: "Madrid",
-      choice3: "Paris",
-      choice4: "Rome",
-      choice5: "Lisbon",
+      question: "Who made this Awesome game?",
+      choice1: "David",
+      choice2: "Mark",
+      choice3: "Samuel",
+      choice4: "Paul",
+      choice5: "Norris",
       answer: 3
     },
     {
